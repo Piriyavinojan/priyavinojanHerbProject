@@ -1,0 +1,32 @@
+name: your_project_name
+description: A Flutter project for Herb Identification.
+
+publish_to: 'none' # Remove this line if you want to publish to the pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.5+3
+  http: ^1.2.2  # Updated to a compatible version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/my_model.tflite
+    - assets/labels.txt # If you have any assets, list them here
+    - assets/background_image.jpg
+
+
+
+
+
